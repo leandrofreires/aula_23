@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cadastro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textInputName">Nome/Empresa</string>
+    <string name="textInputPhone">Telefone</string>
+    <string name="textInputEmail">E-mail</string>
+    <string name="textInputPassword">Senha</string>
+    <string name="textInputConfirmPassword">Confirmar senha</string>
+    <string name="tabLayoutNoPartner">Não sócio</string>
+    <string name="tabLayoutPartner">Sócio</string>
+    <string name="registerButton">Cadastrar</string>
+    <string name="infoText">Informações do Usuário</string>
+    <string name="errorMessage">O campo %1$s é obrigatório</string>
+    <string name="phoneMask">(##) #####-####</string>
+    <string name="confirmPasswordError">A senha deve ser igual</string>
+</resources>
