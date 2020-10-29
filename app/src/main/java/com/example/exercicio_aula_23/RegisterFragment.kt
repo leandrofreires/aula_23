@@ -11,7 +11,9 @@ import android.view.ViewGroup
 import android.widget.EditText
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.ViewModelProvider
+import com.google.android.material.tabs.TabLayout
 import com.google.android.material.textfield.TextInputLayout
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_register.*
 import kotlinx.android.synthetic.main.fragment_user_infos.*
 
@@ -38,6 +40,7 @@ class RegisterFragment : Fragment() {
         activity?.let {
             viewModel = ViewModelProvider(it).get(MainViewModel::class.java)
         }
+
 
         initComponents()
     }
@@ -128,6 +131,7 @@ class RegisterFragment : Fragment() {
                 name = name,
                 email = email,
                 phone = phone))
+            activity?.tlBar?.getTabAt(1)?.select()
 
         }
     }
